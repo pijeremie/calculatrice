@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calculatrice</title>
+		<link rel="stylesheet" href="calculatrice.css">
+	</head>
+	<body>
+		<div id="calculatrice">
+			<input type="text" id="affichage">
+			<div class="buttons">
+				<button onclick="afficher('+')">+</button>
+				<button onclick="afficher('7')">7</button>
+				<button onclick="afficher('8')">8</button>
+				<button onclick="afficher('9')">9</button>
+				<button onclick="afficher('-')">-</button>
+				<button onclick="afficher('4')">4</button>
+				<button onclick="afficher('5')">5</button>
+				<button onclick="afficher('6')">6</button>
+				<button onclick="afficher('*')">*</button>
+				<button onclick="afficher('1')">1</button>
+				<button onclick="afficher('2')">2</button>
+				<button onclick="afficher('3')">3</button>
+				<button onclick="afficher('/')">/</button>
+				<button onclick="resultat()">=</button>
+				<button onclick="afficher('0')">0</button>
+				<button onclick="afficher('.')">.</button>
+				<button onclick="effacer()">C</button> 
+			</div>
+		</div>
+		<script src="calculatrice.js"></script>
+	</body>
+</html>

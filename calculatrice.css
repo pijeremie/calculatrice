@@ -1,0 +1,30 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    margin: 50px; 
+}
+  
+#calculatrice {
+    background-color: rgba(116, 116, 128, 0.5);
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#affichage {
+    font-size: 1.7em;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button { 
+    font-size: 1.2em;
+    padding: 10px;
+}
+  
